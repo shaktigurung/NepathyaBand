@@ -23,13 +23,13 @@ font-family: 'PT Mono', monospace;
 
 html,
 body {
-    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     color: #120709;
     background-color: #fff;
-   
 }
 
 h1,
@@ -47,18 +47,37 @@ p {
     font-weight: 400;
     line-height: 24px;
 }
-
 /*====================================================
 ||||| Logo and Menu|||||
 ====================================================*/
+nav {
+    overflow: hidden;
+}
+.logo{
+    float: left;
+}
+.menubar{
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 90px 0 0 0;
+    
+}
 .menubar a{
-   text-decoration: none;
-   display: block;
+    color:#120709;
 }
-ul.menubar{
-    list-style-type:none ;
+.menubar a:hover{
+    color:#B55E3A;
 }
-
+/*====================================================
+||||| Main|||||
+====================================================*/
+.main img{
+    width: 100%;
+    height: 100%;
+}
 /*====================================================
 ||||| Footer |||||
 ====================================================*/
